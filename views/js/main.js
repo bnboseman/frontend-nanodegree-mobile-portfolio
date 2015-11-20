@@ -284,3 +284,5 @@ function logAverageFrame(times) {   // times is the array of User Timing measure
 
 // runs updatePositions on scroll
 window.addEventListener('scroll', updatePositions);
+
+window.addEventListener('DOMContentLoaded',updatePositions);
