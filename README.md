@@ -2,6 +2,13 @@
 This code should show pizzas in the background that move as the screen scrolls. built using bootstrap and javascript.
 
 ## Website Performance Optimization portfolio project
+### Index.html
+- inlined css
+- only show print css in media print
+- async javascript files
+- added libary that allowed async loading of google fonts
+
+### Pizza Page
 - Lowered amount of pizzas generated from 200 to 32
 - inlined the css
 - changed resizing algortim so that it only caluclatues the size once
